@@ -80,7 +80,7 @@ Otherwise, we will have a messy unit testing project.
 
 - One unit of test `can cover mutiple classes/methods` (sociable unit test).
 - There are authors that mention Integration Test as the sociable unit test (in this context It's more about narrow integration test)
-- However without the proper rules to organize your testing classes (e.g good naming convension, know your unit of work,..) we can end up with a messy like:
+- However without the proper rules to organize your testing classes & identify the boundary of tests (e.g good naming convension, know your unit of work,..) we can end up with a messy like:
   - Dupplicated test cases
   - (or) we don't know where to write the test
   - (or) we don't know if a class should be tested as a seperated unit.
