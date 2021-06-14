@@ -210,10 +210,10 @@ We should consider to follow the form of Given > When > Then folow with `Given` 
 **Convention:**
 
 - Ideal world:
-  - {UnitOfWorkName}_{ScenarioUnderTest}_{ExpectedBehavior}.
+  - {UnitOfWorkName}\_{ScenarioUnderTest}\_{ExpectedBehavior}.
     - {UnitOfWorkName} can be a method, or a logical group of multiple methods/classes.
 - However I prefer this approach for better tracking & consistency:
-  - {MethodUndertest}_{ScenarioUnderTest}_{ExpectedBehavior}
+  - {MethodUndertest}\_{ScenarioUnderTest}\_{ExpectedBehavior}
     - In the case of `sociable` unit testing, the {MethodUndertest} is the entry point of the test, where developer can easy to map to the technical context.
 
 **Example**:
