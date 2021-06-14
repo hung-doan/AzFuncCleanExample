@@ -59,10 +59,11 @@ For example: sociable technique for the domain models, solitary technique for th
 However, the most importance part is: the team should be on the same page about unit of work under test, and how to decide them.
 Otherwise, we will have a messy unit testing project.
 
-**Maping to the code, a unit of work is an action that:**
+**Maping to the code, a quick identification of a unit of work is an action that (not limited to):**
 
 - It's a public method/interface of the system.
 - The result/execution-output can be observed via a noticiable change to the state of the system
+- ...
 
 **_For example:_**
 
