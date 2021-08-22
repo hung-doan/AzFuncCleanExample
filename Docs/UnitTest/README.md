@@ -212,9 +212,10 @@ We should consider to follow the form of Given > When > Then folow with `Given` 
 - Ideal world:
   - {UnitOfWorkName}\_{ScenarioUnderTest}\_{ExpectedBehavior}.
     - {UnitOfWorkName} can be a method, or a logical group of multiple methods/classes.
-- However I prefer this approach for better tracking & consistency:
+- However, personally I prefer this approach for better tracking & consistency within the technical context:
   - {MethodUndertest}\_{ScenarioUnderTest}\_{ExpectedBehavior}
     - In the case of `sociable` unit testing, the {MethodUndertest} is the entry point of the test, where developer can easy to map to the technical context.
+  - Also It worths to mention that there should be no rigid naming policy. Choose the convention that the team is comfortable with and easy to manage. 
 
 **Example**:
 
@@ -225,7 +226,7 @@ We should consider to follow the form of Given > When > Then folow with `Given` 
 - Testing method:
   - Core.Application`.UnitTest`
     - /Services/ProductServices`Test`.cs
-      - CreateProduct`_ExistenceName_ThownDupplicatedValidationError`()
+      - CreateProduct`_WhenProductNameExists_ShouldThownDupplicatedError`()
 
 ###  4.4. <a name='Testingpattern'></a>Testing pattern
 
